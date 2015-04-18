@@ -17,7 +17,8 @@
 		FCDF78931AE1E76400888287 /* children-world.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDF78921AE1E76400888287 /* children-world.png */; };
 		FCDF78951AE1EC6B00888287 /* camera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDF78941AE1EC6B00888287 /* camera-icon.png */; };
 		FCDF78971AE2056C00888287 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDF78961AE2056C00888287 /* CoreLocation.framework */; };
-		FCDF78A01AE20A7F00888287 /* DenunciaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDF789F1AE20A7F00888287 /* DenunciaViewController.m */; };
+		FCDF78A31AE21B5E00888287 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDF78A21AE21B5E00888287 /* Login.m */; };
+		FCDF78B11AE22B1E00888287 /* DenunciarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDF78B01AE22B1E00888287 /* DenunciarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +48,10 @@
 		FCDF78921AE1E76400888287 /* children-world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "children-world.png"; path = "../children-world.png"; sourceTree = "<group>"; };
 		FCDF78941AE1EC6B00888287 /* camera-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-icon.png"; sourceTree = "<group>"; };
 		FCDF78961AE2056C00888287 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		FCDF789E1AE20A7F00888287 /* DenunciaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DenunciaViewController.h; path = SafeChild/DenunciaViewController.h; sourceTree = "<group>"; };
-		FCDF789F1AE20A7F00888287 /* DenunciaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DenunciaViewController.m; path = SafeChild/DenunciaViewController.m; sourceTree = "<group>"; };
+		FCDF78A11AE21B5E00888287 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Login.h; path = SafeChild/Login.h; sourceTree = "<group>"; };
+		FCDF78A21AE21B5E00888287 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Login.m; path = SafeChild/Login.m; sourceTree = "<group>"; };
+		FCDF78AF1AE22B1E00888287 /* DenunciarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DenunciarViewController.h; path = SafeChild/DenunciarViewController.h; sourceTree = "<group>"; };
+		FCDF78B01AE22B1E00888287 /* DenunciarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DenunciarViewController.m; path = SafeChild/DenunciarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +146,8 @@
 		FC795EDE1AE1437700BC3BE6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FCDF789E1AE20A7F00888287 /* DenunciaViewController.h */,
-				FCDF789F1AE20A7F00888287 /* DenunciaViewController.m */,
+				FCDF78AF1AE22B1E00888287 /* DenunciarViewController.h */,
+				FCDF78B01AE22B1E00888287 /* DenunciarViewController.m */,
 				FC795EBE1AE141E200BC3BE6 /* ViewController.h */,
 				FC795EBF1AE141E200BC3BE6 /* ViewController.m */,
 			);
@@ -155,6 +158,8 @@
 		FC795EDF1AE1438400BC3BE6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FCDF78A11AE21B5E00888287 /* Login.h */,
+				FCDF78A21AE21B5E00888287 /* Login.m */,
 			);
 			name = Model;
 			path = ..;
@@ -280,10 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCDF78A31AE21B5E00888287 /* Login.m in Sources */,
 				FC795EC01AE141E200BC3BE6 /* ViewController.m in Sources */,
-				FCDF78A01AE20A7F00888287 /* DenunciaViewController.m in Sources */,
 				FC795EBD1AE141E200BC3BE6 /* AppDelegate.m in Sources */,
 				FC795EBA1AE141E200BC3BE6 /* main.m in Sources */,
+				FCDF78B11AE22B1E00888287 /* DenunciarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

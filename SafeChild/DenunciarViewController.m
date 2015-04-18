@@ -1,34 +1,22 @@
 //
-//  DenunciaViewController.m
+//  DenunciarViewController.m
 //  SafeChild
 //
-//  Created by Julian Villaquiran on 17/04/15.
+//  Created by Julian Villaquiran on 18/04/15.
 //  Copyright (c) 2015 Julian Villaquiran. All rights reserved.
 //
 
-#import "DenunciaViewController.h"
+#import "DenunciarViewController.h"
 
-@interface DenunciaViewController ()
+@interface DenunciarViewController ()
 
 @end
 
-@implementation DenunciaViewController{
-    CLLocationManager *locationManager;
-}
+@implementation DenunciarViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    locationManager = [[CLLocationManager alloc] init];
-      NSLog(@"Cargo");
-}
-
-- (IBAction)enviar:(id)sender {
-    locationManager.delegate = self;
-    locationManager.desiredAccuracy = kCLLocationAccuracyBest;
-    
-    [locationManager startUpdatingLocation];
-  
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,27 +24,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - CLLocationManagerDelegate
-
-- (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error
-{
-    NSLog(@"didFailWithError: %@", error);
-    UIAlertView *errorAlert = [[UIAlertView alloc]
-                               initWithTitle:@"Error" message:@"Failed to Get Your Location" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-    [errorAlert show];
-}
-
-- (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
-{
-    NSLog(@"didUpdateToLocation: %@", newLocation);
-    CLLocation *currentLocation = newLocation;
-    
-    if (currentLocation != nil) {
-        
-        NSLog(@"Entro");
-        _locationOutput.text = [NSString stringWithFormat:@"%.8f, %.8f", currentLocation.coordinate.longitude, currentLocation.coordinate.latitude];
-    }
-}
 /*
 #pragma mark - Navigation
 
@@ -67,6 +34,8 @@
 }
 */
 
+
+
 - (IBAction)loadImage:(id)sender {
     
     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
@@ -75,7 +44,6 @@
     picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
     
     [self presentViewController:picker animated:YES completion:NULL];
-    _loadImageSelf.hidden = YES;
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
@@ -85,8 +53,6 @@
     
     [picker dismissViewControllerAnimated:YES completion:NULL];
     
-    
-    
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
@@ -94,4 +60,10 @@
     [picker dismissViewControllerAnimated:YES completion:NULL];
     
 }
+
+-(void)enviar:(id)sender{
+    
+}
+
+
 @end
