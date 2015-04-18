@@ -14,6 +14,12 @@
 		FC795EC51AE141E200BC3BE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC795EC41AE141E200BC3BE6 /* Images.xcassets */; };
 		FC795EC81AE141E200BC3BE6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC795EC61AE141E200BC3BE6 /* LaunchScreen.xib */; };
 		FC795ED41AE141E200BC3BE6 /* SafeChildTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC795ED31AE141E200BC3BE6 /* SafeChildTests.m */; };
+		FC7D1FD31AE24D9D00F753F6 /* denuncia18.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7D1FD21AE24D9D00F753F6 /* denuncia18.png */; };
+		FC7D1FD61AE2557900F753F6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D1FD51AE2557900F753F6 /* LoginViewController.m */; };
+		FC7D1FD91AE25EB000F753F6 /* UserInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D1FD81AE25EB000F753F6 /* UserInformation.m */; };
+		FC7D1FDD1AE2655800F753F6 /* ninos-de-la-calle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC7D1FDA1AE2655700F753F6 /* ninos-de-la-calle.jpg */; };
+		FC7D1FDE1AE2655800F753F6 /* Restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7D1FDB1AE2655700F753F6 /* Restaurant.png */; };
+		FC7D1FDF1AE2655800F753F6 /* Trabajo-Infantil-Calle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC7D1FDC1AE2655700F753F6 /* Trabajo-Infantil-Calle.jpg */; };
 		FCDF78931AE1E76400888287 /* children-world.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDF78921AE1E76400888287 /* children-world.png */; };
 		FCDF78951AE1EC6B00888287 /* camera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDF78941AE1EC6B00888287 /* camera-icon.png */; };
 		FCDF78971AE2056C00888287 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDF78961AE2056C00888287 /* CoreLocation.framework */; };
@@ -45,8 +51,16 @@
 		FC795ECD1AE141E200BC3BE6 /* SafeChildTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeChildTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC795ED21AE141E200BC3BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC795ED31AE141E200BC3BE6 /* SafeChildTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeChildTests.m; sourceTree = "<group>"; };
+		FC7D1FD21AE24D9D00F753F6 /* denuncia18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = denuncia18.png; path = ../denuncia18.png; sourceTree = "<group>"; };
+		FC7D1FD41AE2557900F753F6 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = SafeChild/LoginViewController.h; sourceTree = "<group>"; };
+		FC7D1FD51AE2557900F753F6 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = SafeChild/LoginViewController.m; sourceTree = "<group>"; };
+		FC7D1FD71AE25EB000F753F6 /* UserInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserInformation.h; path = SafeChild/UserInformation.h; sourceTree = "<group>"; };
+		FC7D1FD81AE25EB000F753F6 /* UserInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserInformation.m; path = SafeChild/UserInformation.m; sourceTree = "<group>"; };
+		FC7D1FDA1AE2655700F753F6 /* ninos-de-la-calle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ninos-de-la-calle.jpg"; sourceTree = "<group>"; };
+		FC7D1FDB1AE2655700F753F6 /* Restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Restaurant.png; sourceTree = "<group>"; };
+		FC7D1FDC1AE2655700F753F6 /* Trabajo-Infantil-Calle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Trabajo-Infantil-Calle.jpg"; sourceTree = "<group>"; };
 		FCDF78921AE1E76400888287 /* children-world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "children-world.png"; path = "../children-world.png"; sourceTree = "<group>"; };
-		FCDF78941AE1EC6B00888287 /* camera-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-icon.png"; sourceTree = "<group>"; };
+		FCDF78941AE1EC6B00888287 /* camera-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-icon.png"; path = "../camera-icon.png"; sourceTree = "<group>"; };
 		FCDF78961AE2056C00888287 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		FCDF78A11AE21B5E00888287 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Login.h; path = SafeChild/Login.h; sourceTree = "<group>"; };
 		FCDF78A21AE21B5E00888287 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Login.m; path = SafeChild/Login.m; sourceTree = "<group>"; };
@@ -77,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				FCDF78961AE2056C00888287 /* CoreLocation.framework */,
-				FCDF78941AE1EC6B00888287 /* camera-icon.png */,
 				FC795EB61AE141E200BC3BE6 /* SafeChild */,
 				FC795ED01AE141E200BC3BE6 /* SafeChildTests */,
 				FC795EB51AE141E200BC3BE6 /* Products */,
@@ -138,6 +151,9 @@
 			isa = PBXGroup;
 			children = (
 				FC795EC11AE141E200BC3BE6 /* Main.storyboard */,
+				FC7D1FDA1AE2655700F753F6 /* ninos-de-la-calle.jpg */,
+				FC7D1FDB1AE2655700F753F6 /* Restaurant.png */,
+				FC7D1FDC1AE2655700F753F6 /* Trabajo-Infantil-Calle.jpg */,
 			);
 			name = VIew;
 			path = ..;
@@ -146,6 +162,8 @@
 		FC795EDE1AE1437700BC3BE6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FC7D1FD41AE2557900F753F6 /* LoginViewController.h */,
+				FC7D1FD51AE2557900F753F6 /* LoginViewController.m */,
 				FCDF78AF1AE22B1E00888287 /* DenunciarViewController.h */,
 				FCDF78B01AE22B1E00888287 /* DenunciarViewController.m */,
 				FC795EBE1AE141E200BC3BE6 /* ViewController.h */,
@@ -158,6 +176,8 @@
 		FC795EDF1AE1438400BC3BE6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FC7D1FD71AE25EB000F753F6 /* UserInformation.h */,
+				FC7D1FD81AE25EB000F753F6 /* UserInformation.m */,
 				FCDF78A11AE21B5E00888287 /* Login.h */,
 				FCDF78A21AE21B5E00888287 /* Login.m */,
 			);
@@ -178,6 +198,8 @@
 		FC795EE11AE143E700BC3BE6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FCDF78941AE1EC6B00888287 /* camera-icon.png */,
+				FC7D1FD21AE24D9D00F753F6 /* denuncia18.png */,
 				FCDF78921AE1E76400888287 /* children-world.png */,
 			);
 			name = Resources;
@@ -264,8 +286,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC795EC31AE141E200BC3BE6 /* Main.storyboard in Resources */,
+				FC7D1FD31AE24D9D00F753F6 /* denuncia18.png in Resources */,
+				FC7D1FDF1AE2655800F753F6 /* Trabajo-Infantil-Calle.jpg in Resources */,
+				FC7D1FDE1AE2655800F753F6 /* Restaurant.png in Resources */,
 				FC795EC81AE141E200BC3BE6 /* LaunchScreen.xib in Resources */,
 				FCDF78951AE1EC6B00888287 /* camera-icon.png in Resources */,
+				FC7D1FDD1AE2655800F753F6 /* ninos-de-la-calle.jpg in Resources */,
 				FC795EC51AE141E200BC3BE6 /* Images.xcassets in Resources */,
 				FCDF78931AE1E76400888287 /* children-world.png in Resources */,
 			);
@@ -286,7 +312,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCDF78A31AE21B5E00888287 /* Login.m in Sources */,
+				FC7D1FD91AE25EB000F753F6 /* UserInformation.m in Sources */,
 				FC795EC01AE141E200BC3BE6 /* ViewController.m in Sources */,
+				FC7D1FD61AE2557900F753F6 /* LoginViewController.m in Sources */,
 				FC795EBD1AE141E200BC3BE6 /* AppDelegate.m in Sources */,
 				FC795EBA1AE141E200BC3BE6 /* main.m in Sources */,
 				FCDF78B11AE22B1E00888287 /* DenunciarViewController.m in Sources */,

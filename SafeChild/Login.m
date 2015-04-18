@@ -13,8 +13,8 @@
 
 -(void)saveUser{
     
-    //[[NSUserDefaults standardUserDefaults] setObject:_userName forKey:@"UserName"];
-    //[[NSUserDefaults standardUserDefaults] synchronize];
+    [[NSUserDefaults standardUserDefaults] setObject:_userName forKey:@"UserName"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 @end
