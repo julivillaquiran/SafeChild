@@ -14,6 +14,10 @@
 		FC795EC51AE141E200BC3BE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC795EC41AE141E200BC3BE6 /* Images.xcassets */; };
 		FC795EC81AE141E200BC3BE6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC795EC61AE141E200BC3BE6 /* LaunchScreen.xib */; };
 		FC795ED41AE141E200BC3BE6 /* SafeChildTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC795ED31AE141E200BC3BE6 /* SafeChildTests.m */; };
+		FCDF78931AE1E76400888287 /* children-world.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDF78921AE1E76400888287 /* children-world.png */; };
+		FCDF78951AE1EC6B00888287 /* camera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDF78941AE1EC6B00888287 /* camera-icon.png */; };
+		FCDF78971AE2056C00888287 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDF78961AE2056C00888287 /* CoreLocation.framework */; };
+		FCDF78A01AE20A7F00888287 /* DenunciaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDF789F1AE20A7F00888287 /* DenunciaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +34,21 @@
 		FC795EB41AE141E200BC3BE6 /* SafeChild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeChild.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC795EB81AE141E200BC3BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC795EB91AE141E200BC3BE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FC795EBB1AE141E200BC3BE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FC795EBC1AE141E200BC3BE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FC795EBE1AE141E200BC3BE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FC795EBF1AE141E200BC3BE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC795EBB1AE141E200BC3BE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SafeChild/AppDelegate.h; sourceTree = "<group>"; };
+		FC795EBC1AE141E200BC3BE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SafeChild/AppDelegate.m; sourceTree = "<group>"; };
+		FC795EBE1AE141E200BC3BE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = SafeChild/ViewController.h; sourceTree = "<group>"; };
+		FC795EBF1AE141E200BC3BE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = SafeChild/ViewController.m; sourceTree = "<group>"; };
 		FC795EC21AE141E200BC3BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC795EC41AE141E200BC3BE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FC795EC71AE141E200BC3BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FC795ECD1AE141E200BC3BE6 /* SafeChildTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeChildTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC795ED21AE141E200BC3BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC795ED31AE141E200BC3BE6 /* SafeChildTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeChildTests.m; sourceTree = "<group>"; };
+		FCDF78921AE1E76400888287 /* children-world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "children-world.png"; path = "../children-world.png"; sourceTree = "<group>"; };
+		FCDF78941AE1EC6B00888287 /* camera-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-icon.png"; sourceTree = "<group>"; };
+		FCDF78961AE2056C00888287 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FCDF789E1AE20A7F00888287 /* DenunciaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DenunciaViewController.h; path = SafeChild/DenunciaViewController.h; sourceTree = "<group>"; };
+		FCDF789F1AE20A7F00888287 /* DenunciaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DenunciaViewController.m; path = SafeChild/DenunciaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCDF78971AE2056C00888287 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +73,10 @@
 		FC795EAB1AE141E200BC3BE6 = {
 			isa = PBXGroup;
 			children = (
+				FCDF789E1AE20A7F00888287 /* DenunciaViewController.h */,
+				FCDF789F1AE20A7F00888287 /* DenunciaViewController.m */,
+				FCDF78961AE2056C00888287 /* CoreLocation.framework */,
+				FCDF78941AE1EC6B00888287 /* camera-icon.png */,
 				FC795EB61AE141E200BC3BE6 /* SafeChild */,
 				FC795ED01AE141E200BC3BE6 /* SafeChildTests */,
 				FC795EB51AE141E200BC3BE6 /* Products */,
@@ -81,11 +95,11 @@
 		FC795EB61AE141E200BC3BE6 /* SafeChild */ = {
 			isa = PBXGroup;
 			children = (
-				FC795EBB1AE141E200BC3BE6 /* AppDelegate.h */,
-				FC795EBC1AE141E200BC3BE6 /* AppDelegate.m */,
-				FC795EBE1AE141E200BC3BE6 /* ViewController.h */,
-				FC795EBF1AE141E200BC3BE6 /* ViewController.m */,
-				FC795EC11AE141E200BC3BE6 /* Main.storyboard */,
+				FC795EDE1AE1437700BC3BE6 /* Controller */,
+				FC795EE01AE1439500BC3BE6 /* Delegate */,
+				FC795EDF1AE1438400BC3BE6 /* Model */,
+				FC795EE11AE143E700BC3BE6 /* Resources */,
+				FC795EDD1AE1435C00BC3BE6 /* VIew */,
 				FC795EC41AE141E200BC3BE6 /* Images.xcassets */,
 				FC795EC61AE141E200BC3BE6 /* LaunchScreen.xib */,
 				FC795EB71AE141E200BC3BE6 /* Supporting Files */,
@@ -117,6 +131,51 @@
 				FC795ED21AE141E200BC3BE6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC795EDD1AE1435C00BC3BE6 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				FC795EC11AE141E200BC3BE6 /* Main.storyboard */,
+			);
+			name = VIew;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FC795EDE1AE1437700BC3BE6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC795EBE1AE141E200BC3BE6 /* ViewController.h */,
+				FC795EBF1AE141E200BC3BE6 /* ViewController.m */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FC795EDF1AE1438400BC3BE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FC795EE01AE1439500BC3BE6 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FC795EBB1AE141E200BC3BE6 /* AppDelegate.h */,
+				FC795EBC1AE141E200BC3BE6 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FC795EE11AE143E700BC3BE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCDF78921AE1E76400888287 /* children-world.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +260,9 @@
 			files = (
 				FC795EC31AE141E200BC3BE6 /* Main.storyboard in Resources */,
 				FC795EC81AE141E200BC3BE6 /* LaunchScreen.xib in Resources */,
+				FCDF78951AE1EC6B00888287 /* camera-icon.png in Resources */,
 				FC795EC51AE141E200BC3BE6 /* Images.xcassets in Resources */,
+				FCDF78931AE1E76400888287 /* children-world.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC795EC01AE141E200BC3BE6 /* ViewController.m in Sources */,
+				FCDF78A01AE20A7F00888287 /* DenunciaViewController.m in Sources */,
 				FC795EBD1AE141E200BC3BE6 /* AppDelegate.m in Sources */,
 				FC795EBA1AE141E200BC3BE6 /* main.m in Sources */,
 			);
@@ -250,6 +312,7 @@
 				FC795EC21AE141E200BC3BE6 /* Base */,
 			);
 			name = Main.storyboard;
+			path = SafeChild;
 			sourceTree = "<group>";
 		};
 		FC795EC61AE141E200BC3BE6 /* LaunchScreen.xib */ = {
@@ -416,6 +479,7 @@
 				FC795ED91AE141E200BC3BE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC795EDA1AE141E200BC3BE6 /* Build configuration list for PBXNativeTarget "SafeChildTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +488,7 @@
 				FC795EDC1AE141E200BC3BE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
