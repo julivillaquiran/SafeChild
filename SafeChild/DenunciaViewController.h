@@ -9,9 +9,13 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 
-@interface DenunciaViewController : UIViewController <CLLocationManagerDelegate>
+@interface DenunciaViewController : UIViewController <CLLocationManagerDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
+- (IBAction)loadImage:(id)sender;
 @property (weak, nonatomic) IBOutlet UILabel *locationOutput;
 - (IBAction)enviar:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *loadImageSelf;
 
 @end

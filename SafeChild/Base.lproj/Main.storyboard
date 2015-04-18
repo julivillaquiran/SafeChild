@@ -271,6 +271,9 @@
                                         <include reference="uyg-SD-39t"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="loadImage:" destination="bSw-M1-QIW" eventType="touchUpInside" id="4FS-CG-yDi"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingrese información adicional (Opcional)" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="EaY-eM-4Rh">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
@@ -378,6 +381,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Denunciar" id="N80-oE-fPJ"/>
                     <connections>
+                        <outlet property="imageView" destination="vtp-Dy-50c" id="DR1-De-SWb"/>
+                        <outlet property="loadImage" destination="MlV-hr-0Ka" id="GEE-qB-tAF"/>
+                        <outlet property="loadImageSelf" destination="MlV-hr-0Ka" id="lwe-Gh-Nrr"/>
                         <outlet property="locationOutput" destination="fYJ-64-Pp9" id="9LS-VO-ag5"/>
                     </connections>
                 </viewController>

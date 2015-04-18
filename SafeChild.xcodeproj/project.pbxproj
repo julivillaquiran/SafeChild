@@ -73,8 +73,6 @@
 		FC795EAB1AE141E200BC3BE6 = {
 			isa = PBXGroup;
 			children = (
-				FCDF789E1AE20A7F00888287 /* DenunciaViewController.h */,
-				FCDF789F1AE20A7F00888287 /* DenunciaViewController.m */,
 				FCDF78961AE2056C00888287 /* CoreLocation.framework */,
 				FCDF78941AE1EC6B00888287 /* camera-icon.png */,
 				FC795EB61AE141E200BC3BE6 /* SafeChild */,
@@ -145,6 +143,8 @@
 		FC795EDE1AE1437700BC3BE6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FCDF789E1AE20A7F00888287 /* DenunciaViewController.h */,
+				FCDF789F1AE20A7F00888287 /* DenunciaViewController.m */,
 				FC795EBE1AE141E200BC3BE6 /* ViewController.h */,
 				FC795EBF1AE141E200BC3BE6 /* ViewController.m */,
 			);
