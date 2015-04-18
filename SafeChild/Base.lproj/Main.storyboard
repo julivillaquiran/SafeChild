@@ -203,12 +203,37 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ubicación actual" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hca-hd-G0T">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ovo-iG-7d1">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="210" id="6kf-a2-fvi"/>
+                                    <constraint firstAttribute="height" constant="210" id="C5f-0Q-4XD"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="363" id="jUx-rU-xqQ"/>
+                                    <constraint firstAttribute="height" constant="210" id="rnW-hY-sNf"/>
+                                    <constraint firstAttribute="width" constant="363" id="vUL-80-MgB"/>
+                                    <constraint firstAttribute="width" constant="363" id="xpZ-m3-JVl"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="6kf-a2-fvi"/>
+                                        <exclude reference="C5f-0Q-4XD"/>
+                                        <exclude reference="jUx-rU-xqQ"/>
+                                        <exclude reference="rnW-hY-sNf"/>
+                                        <exclude reference="vUL-80-MgB"/>
+                                        <exclude reference="xpZ-m3-JVl"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="6kf-a2-fvi"/>
+                                        <include reference="C5f-0Q-4XD"/>
+                                        <exclude reference="jUx-rU-xqQ"/>
+                                        <exclude reference="rnW-hY-sNf"/>
+                                        <include reference="vUL-80-MgB"/>
+                                        <exclude reference="xpZ-m3-JVl"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingrese información adicional (Opcional)" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vQZ-LS-SR4">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <constraints>
@@ -292,37 +317,28 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ovo-iG-7d1">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ubicación actual" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hca-hd-G0T">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="210" id="6kf-a2-fvi"/>
-                                    <constraint firstAttribute="height" constant="210" id="C5f-0Q-4XD"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="363" id="jUx-rU-xqQ"/>
-                                    <constraint firstAttribute="height" constant="210" id="rnW-hY-sNf"/>
-                                    <constraint firstAttribute="width" constant="363" id="vUL-80-MgB"/>
-                                    <constraint firstAttribute="width" constant="363" id="xpZ-m3-JVl"/>
+                                    <constraint firstAttribute="height" constant="21" id="3F0-uZ-MzE"/>
+                                    <constraint firstAttribute="width" constant="129" id="FOx-eM-Z6l"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="6kf-a2-fvi"/>
-                                        <exclude reference="C5f-0Q-4XD"/>
-                                        <exclude reference="jUx-rU-xqQ"/>
-                                        <exclude reference="rnW-hY-sNf"/>
-                                        <exclude reference="vUL-80-MgB"/>
-                                        <exclude reference="xpZ-m3-JVl"/>
+                                        <exclude reference="3F0-uZ-MzE"/>
+                                        <exclude reference="FOx-eM-Z6l"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
-                                        <exclude reference="6kf-a2-fvi"/>
-                                        <include reference="C5f-0Q-4XD"/>
-                                        <exclude reference="jUx-rU-xqQ"/>
-                                        <exclude reference="rnW-hY-sNf"/>
-                                        <include reference="vUL-80-MgB"/>
-                                        <exclude reference="xpZ-m3-JVl"/>
+                                        <include reference="3F0-uZ-MzE"/>
+                                        <include reference="FOx-eM-Z6l"/>
                                     </mask>
                                 </variation>
-                            </imageView>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -359,12 +375,12 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Zkb-2h-qhG"/>
-                                <exclude reference="Hca-hd-G0T"/>
+                                <exclude reference="Ovo-iG-7d1"/>
                                 <exclude reference="vQZ-LS-SR4"/>
                                 <exclude reference="Gbl-ZZ-Ofi"/>
                                 <exclude reference="oSF-Eu-KD8"/>
                                 <exclude reference="eQC-JB-0wK"/>
-                                <exclude reference="Ovo-iG-7d1"/>
+                                <exclude reference="Hca-hd-G0T"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="1W3-uN-vpD"/>
@@ -401,12 +417,12 @@
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Zkb-2h-qhG"/>
-                                <include reference="Hca-hd-G0T"/>
+                                <include reference="Ovo-iG-7d1"/>
                                 <include reference="vQZ-LS-SR4"/>
                                 <include reference="Gbl-ZZ-Ofi"/>
                                 <include reference="oSF-Eu-KD8"/>
                                 <include reference="eQC-JB-0wK"/>
-                                <include reference="Ovo-iG-7d1"/>
+                                <include reference="Hca-hd-G0T"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="1W3-uN-vpD"/>
@@ -443,6 +459,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Denunciar" id="LYU-a8-8bk"/>
                     <connections>
+                        <outlet property="camaraButton" destination="oSF-Eu-KD8" id="bCg-7p-Tcf"/>
                         <outlet property="imageView" destination="Ovo-iG-7d1" id="dmX-xd-4RU"/>
                         <outlet property="locationOutput" destination="eQC-JB-0wK" id="ckI-EV-FAu"/>
                         <outlet property="observation" destination="vQZ-LS-SR4" id="SAg-BY-E1W"/>

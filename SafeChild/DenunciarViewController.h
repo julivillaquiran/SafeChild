@@ -13,6 +13,8 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
+@property (weak, nonatomic) IBOutlet UIButton *camaraButton;
+
 - (IBAction)loadImage:(id)sender;
 @property (weak, nonatomic) IBOutlet UILabel *locationOutput;
 - (IBAction)enviar:(id)sender;
